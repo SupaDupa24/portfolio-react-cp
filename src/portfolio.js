@@ -9,28 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "supadupa24",
+  title: "Hi all, I'm DeQuan Sanders",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀  with experience in designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://my.indeed.com/p/dequans-5oqoqnw",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
+  github: "https://github.com/supadupa24",
   // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  gmail: "dequansanders17@gmail.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  // instagram: 'https://www.instagram.com/davidrakosi/',
+  // twitter: 'https://twitter.com/davidrakosi_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +38,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "MADD CRAZY DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Netlify / Vercel"
     )
   ],
 
@@ -77,10 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -139,7 +139,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -151,10 +151,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Amazon Robotics Technician",
+      company: "Amazon",
+      companylogo: require("./assets/images/amazonlogo.png"),
+      date: "August 2019 – Present",
       desc:
         "Changing lives of developers one line of code at a time.",
       descBullets: [
